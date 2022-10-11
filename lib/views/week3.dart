@@ -156,7 +156,30 @@ class _Week3PageState extends State<Week3Page> {
                       ),
                     ),
                   ),
-                ))
+                )),
+            Container(
+                decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                        begin: Alignment.centerLeft,
+                        end: Alignment.centerRight,
+                        colors: [Colors.red.shade900, Colors.brown.shade900])),
+                child: Material(
+                    color: Colors.transparent,
+                    child: Align(
+                        alignment: Alignment.bottomRight,
+                        child: Container(
+                          margin: const EdgeInsets.all(5),
+                          width: 120,
+                          child: ElevatedButton(
+                              onPressed: () {
+                                Navigator.pushNamed(context, Login.routeName);
+                              },
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor: Colors.red.shade900,
+                                foregroundColor: Colors.brown.shade900,
+                              ),
+                              child: Text('Book Now')),
+                        ))))
           ],
         ),
       ),
