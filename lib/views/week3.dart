@@ -149,7 +149,7 @@ class _Week3PageState extends State<Week3Page> {
                       "\n"
                       " In 2019, 88rising was awarded Label of the Year by Netease, one of the largest music streaming platforms in China. Headquartered in New York City, the company also has offices in Los Angeles and Shanghai. Outside of its core group, the company has collaborated with many artists, most notably KOHH, CL, DPR Live, Yaeji, Phum Viphurit, Verbal, and Hikaru Utada.",
                       style: new TextStyle(
-                        fontSize: 15,
+                        fontSize: 17,
                         color: Colors.black87,
                         letterSpacing: 1,
                         wordSpacing: 1,
